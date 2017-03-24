@@ -3,3 +3,10 @@
   {{question-detail question=model destroyQuestion="destroyQuestion"}}
   {{update-question question=model editQuestion="editQuestion"}}
 </p>
+
+<h2>Answers</h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
