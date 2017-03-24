@@ -7,6 +7,6 @@
 <h2>Answers</h2>
 <ul>
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{new-answer answer=answer saveAnswer="saveAnswer"}}
   {{/each}}
 </ul>

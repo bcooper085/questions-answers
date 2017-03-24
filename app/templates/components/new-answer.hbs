@@ -1,0 +1,15 @@
+{{#if addNewAnswer}}
+    <form class="new-answer">
+        <div class="form-group">
+            {{input value=author id="author" placeholder="Name"}}
+        </div>
+
+        <div class="form-group">
+            {{input value=body id="body" placeholder="Answer"}}
+        </div>
+
+        <button {{action 'saveAnswer'}}>Post Answer</button>
+    </form>
+{{else}}
+    <button {{action 'answerForm'}}>New Answer</button>
+{{/if}}
