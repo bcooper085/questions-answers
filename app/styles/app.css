@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+
+.btn {
+  margin: 1%;
+}
+
+.new-post {
+  font-size: 25px;
+}
+
+h2  {
+  text-align: center;
+}

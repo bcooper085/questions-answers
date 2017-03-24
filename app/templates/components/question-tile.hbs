@@ -1,3 +1,5 @@
-<li>
-    {{#link-to 'question' question.id}}{{question.author}}<br>{{question.body}}{{/link-to}}
-</li>
+<div class="jumbotron">
+  <li class="new-post">
+      {{#link-to 'question' question.id}}User: {{question.author}}<br>Question: {{question.body}}{{/link-to}}
+  </li>
+</div>

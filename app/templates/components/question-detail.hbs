@@ -1,10 +1,19 @@
-{{question.body}}<br>{{question.note}}
+<div class="jumbotron">
+  <li class="new-post">
+    Question: {{question.body}}<br>Notes: {{question.note}}
+  </li>
+</div>
+
+
 
 <h2>Answers</h2>
-<ul>
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
 
-<button {{action 'delete' question}}>Delete Question</button>
+<div class="answers">
+  <ul>
+    {{#each question.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </ul>
+</div>
+
+<button class="btn btn-danger" {{action 'delete' question}}>Delete Question</button>

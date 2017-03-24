@@ -13,9 +13,9 @@
           <div class="form-group">
               {{input value=note id="note" placeholder="Notes"}}
           </div>
-            <button {{action 'editQuestion' question}}>Post Question Edit</button>
+            <button class="btn btn-warning" {{action 'editQuestion' question}}>Post Question Edit</button>
         </form>
     </div>
 {{else}}
-    <button {{action 'updateQuestion'}}>Edit Question</button>
+    <button class="btn btn-warning" {{action 'updateQuestion'}}>Edit Question</button>
 {{/if}}

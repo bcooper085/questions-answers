@@ -12,8 +12,8 @@
             {{input value=note id="note" placeholder="Notes"}}
         </div>
 
-        <button {{action 'saveQuestion'}}>Post Question</button>
+        <button class="btn btn-primary" {{action 'saveQuestion'}}>Post Question</button>
     </form>
 {{else}}
-    <button {{action 'questionForm'}}>New Question</button>
+    <button class="btn btn-primary" {{action 'questionForm'}}>New Question</button>
 {{/if}}

@@ -8,8 +8,8 @@
             {{input value=body id="body" placeholder="Answer"}}
         </div>
 
-        <button {{action 'saveAnswer'}}>Post Answer</button>
+        <button class="btn btn-success" {{action 'saveAnswer'}}>Post Answer</button>
     </form>
 {{else}}
-    <button {{action 'answerForm'}}>New Answer</button>
+    <button  class="btn btn-success"{{action 'answerForm'}}>New Answer</button>
 {{/if}}
