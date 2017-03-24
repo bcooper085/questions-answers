@@ -8,8 +8,21 @@ li {
 
 .new-post {
   font-size: 25px;
+  background-color: rgba(245, 15, 25, 0.60);
+  padding: 30px;
+  border-radius: 5px;
 }
 
 h2  {
   text-align: center;
+}
+
+form {
+  font-size: 25px;
+}
+.new-answer {
+  font-size: 25px;
+  background-color: rgba(67, 192, 88, 0.5);
+  padding: 30px;
+  border-radius: 5px;
 }
