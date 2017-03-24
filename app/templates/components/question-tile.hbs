@@ -1,1 +1,6 @@
-{{yield}}
+<li>
+    {{#link-to 'question' question.id}}{{question.author}}<br>{{question.body}}{{/link-to}}
+
+    {{update-question question=question editQuestion="editQuestion"}}
+    <button {{action 'delete' question}}>Delete Question</button>
+</li>
