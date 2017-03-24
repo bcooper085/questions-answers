@@ -1,0 +1,9 @@
+<h3>User Questions</h3>
+
+<ul>
+  {{#each model.questions as |question|}}
+    {{question-tile question=question destroyQuestion="destroyQuestion" editQuestion="editQuestion"}}
+  {{/each}}
+</ul>
+
+{{new-question saveQuestion="saveQuestion"}}
