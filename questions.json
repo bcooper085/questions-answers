@@ -1,0 +1,21 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "body": "San Francisco",
+    "note": "Estate"
+  }, {
+    "author": "Mike Teavee",
+    "body": "Seattle",
+    "note": "Condo"
+  }, {
+    "author": "Violet Beauregarde",
+    "body": "Portland",
+    "note": "Apartment"
+  }],
+  "answers": [{
+    "author": "Andrea",
+    "body": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "body": "Nice view of the volcano!"
+  }]
+}

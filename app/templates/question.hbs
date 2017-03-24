@@ -4,9 +4,4 @@
   {{update-question question=model editQuestion="editQuestion"}}
 </p>
 
-<h2>Answers</h2>
-<ul>
-  {{#each question.answers as |answer|}}
-    {{new-answer answer=answer saveAnswer="saveAnswer"}}
-  {{/each}}
-</ul>
+{{new-answer saveAnswer="saveAnswer" question=model}}
